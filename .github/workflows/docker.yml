@@ -29,4 +29,4 @@ jobs:
         run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/quirknotes_backend:latest -f Dockerfile_backend .
 
       - name: Push Backend Docker image to Docker Hub
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }]/quirknotes_backend:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/quirknotes_backend:latest
